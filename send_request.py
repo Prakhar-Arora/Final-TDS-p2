@@ -7,13 +7,13 @@
 import requests
 
 payload={
-  "email": "23f2004661@ds.study.iitm.ac.in",
-  "secret": "toothless",
+  "email": "22f3000671@ds.study.iitm.ac.in",
+  "secret": "AVerySecretKey",
   "url": "https://tds-llm-analysis.s-anand.net/demo"
 }
 
 r = requests.post("http://localhost:8000/task",json=payload)
 
 print(r.json())
-# https://tds-llm-analysis.s-anand.net/demo-scrape?email=23f2004661%40ds.study.iitm.ac.in&id=21516
-# https://tds-llm-analysis.s-anand.net/demo-audio?email=23f2004661%40ds.study.iitm.ac.in&id=16884
+# https://tds-llm-analysis.s-anand.net/demo-scrape?email=22f3000671%40ds.study.iitm.ac.in&id=21516
+# https://tds-llm-analysis.s-anand.net/demo-audio?email=22f3000671%40ds.study.iitm.ac.in&id=16884
